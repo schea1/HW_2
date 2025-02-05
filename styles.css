@@ -1,3 +1,43 @@
-p {
-    font-family: Calibri;}
-    
+body, p {
+    font-family: 'Calibri', 'Helvetica', sans-serif;
+}
+
+/* Headings */
+h1, h2 {
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+}
+
+/* Links */
+a:link {
+    color: red;
+}
+a:visited {
+    color: green;
+}
+
+/* Input Submit Button */
+input[type="submit"]:hover {
+    background-color: red;
+}
+input[type="submit"]:active {
+    background-color: green;
+}
+
+/* Unordered Lists */
+ul {
+    list-style-type: square;
+}
+
+/* Ordered Lists */
+ol {
+    list-style-type: lower-roman;
+}
+
+/* Tables */
+table tr:nth-child(even) {
+    background-color: lightgray;
+}
+table tr:hover {
+    background-color: lightblue;
+}
