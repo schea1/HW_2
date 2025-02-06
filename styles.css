@@ -3,7 +3,8 @@ p {
 
 h1, h2, {
     font-family: 'Courier New';
-    color: '#ff0000'}
+    color: "green;"}
+
 
 body {
     font-family: 'Helvetica';}
