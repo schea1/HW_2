@@ -51,4 +51,9 @@ body {
         background-color: #d9f2ff;
     }
     
-    
+    body {
+        background-image: url('https://wallpapers.com/images/hd/white-aesthetic-iphone-digital-art-3ybkks3r4a8aztml.jpg'); /* Ensure relative path is correct */
+        background-size: cover;
+        background-position: center;
+    }
+        
